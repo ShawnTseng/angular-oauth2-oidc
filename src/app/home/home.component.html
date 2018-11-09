@@ -1,0 +1,28 @@
+<button class="btn btn-default" (click)="login()">
+  Login
+</button>
+<button class="btn btn-default" (click)="logoff()">
+  Logout
+</button>
+
+<div>
+  ientityClaims
+  <br>
+  {{ientityClaims | json}}
+  <br>
+  <br>
+</div>
+
+
+<div>
+  accessToken
+  <br>
+  {{accessToken | json}}
+  <br>
+  <br>
+</div>
+
+<div>
+  <button (click)="getUserProfile()">getUserProfile</button>
+  <br> <br> <br>
+</div>
